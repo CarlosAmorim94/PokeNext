@@ -1,12 +1,12 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { ContainerStyle, ListStyle, LogoStyle } from './styles';
+import { ContainerStyled, ListStyled, LogoStyled } from './styles';
 
 export default function Navbar() {
   return (
-    <ContainerStyle>
+    <ContainerStyled>
     
-      <LogoStyle>
+      <LogoStyled>
         <Image 
           src='/images/pokeball.png'
           width='30'
@@ -14,17 +14,17 @@ export default function Navbar() {
           alt='PokeNext'
           />
         <h1>PokeNext</h1>
-      </LogoStyle>
+      </LogoStyled>
 
-      <ListStyle>
+      <ListStyled>
         <li>
           <Link href="/"><a>Home</a></Link>
         </li>
         <li>
           <Link href="/about"><a>Sobre</a></Link>
         </li>
-      </ListStyle>
+      </ListStyled>
     
-    </ContainerStyle>
+    </ContainerStyled>
   );
 }

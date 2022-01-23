@@ -1,11 +1,38 @@
+import { ContainerStyled } from "../styles/homeStyles"
 
+export async function getStaticProps() {
+  const maxPokemons = 251
+  const api = 'https://pokeapi.co/api/v2/pokemon/'
 
-export default function Home() {
+  const resp = await fetch(`${api}/?limit=${maxPokemons}`)
+  const data = await resp.json()
+
+  //add pokemon index
+  data.results.forEach((item, index) => {
+    item.id = index + 1
+  })
+
+  return {
+    props: {
+      pokemons: data.results
+    }
+  }
+
+}
+
+export default function Home( { pokemons } ) {
   return (
-    <section>
+    <ContainerStyled>
       
-      <h1>Teste</h1>
+      <h1>PokeNext</h1>
+
+      <ul>
+        {pokemons.map((pokemon) => (
+          <li key={pokemon.id}>{pokemon.name}</li>
+        ))}
+      </ul>
       
-    </section>
+    </ContainerStyled>
   )
 }
+

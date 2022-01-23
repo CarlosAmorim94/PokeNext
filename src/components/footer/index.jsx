@@ -1,15 +1,13 @@
-import { ContainerStyle } from './styles';
+import { ContainerStyled } from './styles';
 
 export default function Footer() {
   return (
-    <ContainerStyle>
+    <ContainerStyled>
     
       <p>
         <span>PokeNext</span> &copy; 2022
       </p>
-      <p>Construído com S2 por Carlos Amorim</p>
-      <p>Seguindo as aulas do @Matheus Battisti</p>
     
-    </ContainerStyle>
+    </ContainerStyled>
   );
 }

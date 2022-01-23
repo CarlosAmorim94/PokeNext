@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ContainerStyle = styled.footer`
+export const ContainerStyled = styled.footer`
   display: flex;
   flex-direction: column;
   align-items: center;

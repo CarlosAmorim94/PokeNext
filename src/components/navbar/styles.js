@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ContainerStyle = styled.nav`
+export const ContainerStyled = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -10,7 +10,7 @@ export const ContainerStyle = styled.nav`
   color: var(--white);
 `
 
-export const LogoStyle = styled.div`
+export const LogoStyled = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,7 +20,7 @@ export const LogoStyle = styled.div`
   }
 `
 
-export const ListStyle = styled.ul`
+export const ListStyled = styled.ul`
   display: flex;
   list-style: none;
 
