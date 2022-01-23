@@ -7,7 +7,7 @@ export default function Footer() {
       <p>
         <span>PokeNext</span> &copy; 2022
       </p>
-      <p>Construído por Carlos Amorim</p>
+      <p>Construído com S2 por Carlos Amorim</p>
       <p>Seguindo as aulas do @Matheus Battisti</p>
     
     </ContainerStyle>
