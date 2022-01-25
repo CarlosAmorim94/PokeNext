@@ -5,7 +5,7 @@ import pokeball from "../../public/images/pokeball.png"
 import { PokemonsStyled, TitleStyled } from "../styles/homeStyles"
 
 export async function getStaticProps() {
-  const maxPokemons = 251
+  const maxPokemons = 151
   const api = 'https://pokeapi.co/api/v2/pokemon/'
 
   const resp = await fetch(`${api}/?limit=${maxPokemons}`)

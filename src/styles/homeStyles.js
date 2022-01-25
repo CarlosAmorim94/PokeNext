@@ -5,6 +5,7 @@ export const TitleStyled = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   margin-bottom: 2em;
 
   h1 {
@@ -17,6 +18,7 @@ export const TitleStyled = styled.section`
       color: var(--black);
     }
   }
+
 `
 export const PokemonsStyled = styled.div`
   display: flex;
