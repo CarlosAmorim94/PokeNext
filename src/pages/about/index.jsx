@@ -3,7 +3,7 @@ import Link from "next/link"
 
 import pokemons from "../../../public/images/pokemons.png"
 
-import { ContainerStyled, ImageStyled } from "./styles"
+import { ContainerStyled, ImageStyled } from "../../styles/aboutStyles"
 
 export default function About() {
 

@@ -6,7 +6,7 @@ import {
   MovesStyled,
 
 
- } from "./styles"
+ } from "../../styles/pokemonStyles"
 
 import Image from "next/image"
 
