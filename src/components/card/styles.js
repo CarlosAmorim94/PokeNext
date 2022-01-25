@@ -7,8 +7,8 @@ export const CardStyled = styled.div`
   align-items: center;
   flex-direction: column;
   padding: 2rem 1rem;
-  margin-bottom: 2rem;
-  width: 23%;
+  margin: 0 1rem 2rem;
+  width: 22%;
   border-radius: 1rem;
   border: 2px solid var(--red-500);
   box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5);
@@ -49,7 +49,8 @@ export const CardStyled = styled.div`
   }
 
   @media (max-width: 770px) {
-    width: 30%;
+    width: 29%;
+    margin: 0 .5rem 2rem;
 
     h3 {
       font-size: 1rem;
@@ -57,11 +58,13 @@ export const CardStyled = styled.div`
   }
 
   @media (max-width: 400px) {
-    width: 45%;
+    width: 42%;
+    margin: 0 1rem 2rem;
+  }
 
-    h3 {
-      font-size: 1rem;
-    }
+  @media (max-width: 350px) {
+    width: 80%;
+    margin: 2rem auto;
   }
 
 `
