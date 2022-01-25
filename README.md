@@ -20,8 +20,9 @@ Abaixo as tecnologias utilizadas para construção da aplicação
 
 ## 🚀 Fui além
 
-- ✔️ Adicionei responsividade, adaptando o app para smartphones, tablets e computadores
 - ✔️ [Styled-components](https://styled-components.com/)
+- ✔️ Adicionei responsividade, adaptando o app para smartphones, tablets e computadores
+- ✔️ Adicionei campo dos golpes do pokemon selecionado
 
 
 ## ⚙ Pré Requisitos
