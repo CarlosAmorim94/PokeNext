@@ -7,7 +7,7 @@ export const CardStyled = styled.div`
   align-items: center;
   flex-direction: column;
   padding: 2rem 1rem;
-  margin: 0 .5rem 2rem;
+  margin-bottom: 2rem;
   width: 23%;
   border-radius: 1rem;
   border: 2px solid var(--red-500);
@@ -50,6 +50,18 @@ export const CardStyled = styled.div`
 
   @media (max-width: 770px) {
     width: 30%;
+
+    h3 {
+      font-size: 1rem;
+    }
+  }
+
+  @media (max-width: 400px) {
+    width: 45%;
+
+    h3 {
+      font-size: 1rem;
+    }
   }
 
 `
